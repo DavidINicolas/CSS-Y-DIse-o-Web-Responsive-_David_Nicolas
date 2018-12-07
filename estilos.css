@@ -58,4 +58,23 @@ a:nth-child(1){
 	text-align: center;
 
 }
+
+}
+
+
+.cuerpo{
+	height: 80vh;
+	background: #82c3a6;
+
+}
+
+
+.imagen1{
+	margin-top: 10px ;
+
+   
+}
+
+.imgcentro{
+	text-align: center;
 }
