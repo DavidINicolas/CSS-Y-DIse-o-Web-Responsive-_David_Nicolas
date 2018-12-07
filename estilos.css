@@ -1,0 +1,56 @@
+
+
+.cabecera{
+	width: 100%;
+
+	background-color:  #5b7989;
+	display: flex;
+	justify-content:space-between;
+	border-radius: 10px 10px 1px 1px;
+	text-align: center;
+
+}
+
+.titulo{
+	color: white;
+	text-align: left;
+	text-shadow: 2px 2px 2px  #02010a;
+
+}
+
+
+ul{
+	list-style: none;
+	display: inline-flex;
+	margin-top: 30px;
+}
+a{
+	
+	text-decoration: none;
+	color: white;
+	padding: 30px;
+	
+
+	
+}
+
+@media (max-width: 1000px) {
+	
+	.titulo{
+	
+	text-align: center;
+
+	
+	color: red;
+	}
+
+.cabecera{
+	
+
+
+	display: block;
+	
+	text-align: center;
+
+}
+}
