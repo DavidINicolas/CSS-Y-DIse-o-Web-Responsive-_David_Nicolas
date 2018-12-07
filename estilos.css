@@ -19,20 +19,25 @@
 }
 
 
-ul{
+.ahref{
 	list-style: none;
 	display: inline-flex;
-	margin-top: 30px;
+	
 }
 a{
 	
-	text-decoration: none;
 	color: white;
 	padding: 30px;
 	
 
 	
 }
+
+
+a:nth-child(1){
+	text-decoration: none;
+}
+
 
 @media (max-width: 1000px) {
 	
