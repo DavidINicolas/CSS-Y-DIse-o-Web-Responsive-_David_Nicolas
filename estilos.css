@@ -62,8 +62,8 @@ a:nth-child(1){
 }
 
 
-.cuerpo{
-	height: 80vh;
+.cuerpocentral{
+	height: 70%;
 	background: #82c3a6;
 
 }
@@ -77,4 +77,38 @@ a:nth-child(1){
 
 .imgcentro{
 	text-align: center;
+}
+
+
+
+.segundocuerpo{
+
+	height:70%;
+	background: #d5c75f ;
+	
+	
+}
+
+.imagencentral{
+
+display: flex;
+	flex-wrap: wrap;
+justify-content: center;
+
+}
+
+
+.imagen2{
+		padding: 20px;
+		margin-top: 20px;
+	width: 40%;
+	height: 40%;
+
+}
+
+.imagen3{
+	padding: 20px;
+margin-top: 20px;
+width: 40%;
+	height: 40%;
 }
