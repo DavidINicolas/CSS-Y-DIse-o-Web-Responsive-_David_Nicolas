@@ -51,7 +51,7 @@ a:nth-child(1){
 	
 	text-align: center;
 	
-	color: red;
+
 	}
 
 .cabecera{
@@ -190,4 +190,67 @@ padding: 12px;
 
 .conlett{
 		text-align: center;
+}
+
+
+@media (max-width:1000px ){
+	
+	.refe1{
+		width: 100%;
+	}
+	
+	.refe2{
+		width: 100%;
+	}
+
+	.refe3{
+		width: 100%;
+	}
+
+	.refe4{
+		width: 100%;
+	}
+
+
+}
+
+
+#paisajemedio{
+	
+width: 100%;
+	height: 100%;	
+	background: #d5c75f;
+	margin-top: -30px;
+}
+
+
+.imgmedio{
+
+width: 95%;
+height: 70%;
+padding: 10px;
+margin: 20px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.mac{
+	margin: 5px;
+	width:500px;
+	height: 90%;
+	
+}
+
+.mac1{
+	filter: blur(10px);
+}
+
+.mac2,.mac4,.mac6 {
+	filter: grayscale(100%);
+}
+
+.mac3{
+	filter: sepia(90%);
 }
