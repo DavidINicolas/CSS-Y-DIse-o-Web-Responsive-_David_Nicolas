@@ -1,4 +1,6 @@
-
+*{
+font-family: 'Dancing Script', cursive;
+}
 
 .cabecera{
 	width: 100%;
@@ -9,6 +11,10 @@
 	border-radius: 10px 10px 1px 1px;
 	text-align: center;
 
+}
+
+img{
+	box-shadow: 2px 2px 2px 2px  #02010a;
 }
 
 .titulo{
@@ -44,7 +50,6 @@ a:nth-child(1){
 	.titulo{
 	
 	text-align: center;
-
 	
 	color: red;
 	}
@@ -83,7 +88,7 @@ a:nth-child(1){
 
 .segundocuerpo{
 
-	height:70%;
+	height:100%;
 	background: #d5c75f ;
 	
 	
@@ -99,16 +104,90 @@ justify-content: center;
 
 
 .imagen2{
-		padding: 20px;
+		
 		margin-top: 20px;
+		margin-right: 10px;
 	width: 40%;
+	height: 40%;
+	
+
+}
+
+@media (max-width: 1000px) {
+	.imagen2{
+		width: 80%;
+	}
+
+
+	}
+
+.imagen2:hover{
+	animation: rodar 2s infinite;
+}
+
+@keyframes rodar{
+
+to{
+	transform: rotate(20deg);
+}
+}
+
+.imagen3{
+	
+margin-top: 20px;
+width: 40%;
 	height: 40%;
 
 }
 
-.imagen3{
-	padding: 20px;
-margin-top: 20px;
-width: 40%;
-	height: 40%;
+
+@media (max-width: 1000px) {
+	.imagen3{
+		width: 80%;
+	}
+
+	
+	}
+
+
+.imagen3:hover{
+	animation: tras 2s infinite;
+	box-shadow: 2px 2px 2px 2px #82c3a6;
+	border:2px solid black;
+}
+
+
+@keyframes tras{
+
+to{
+	transform: translate(5px,-20px);
+
+}
+
+}
+
+
+
+#footer{
+	display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+background:  #C6d5c5;
+border-radius: 2px 2px 14px 14px;
+margin:0 auto;
+padding: 12px;
+}
+
+
+.labellet{
+	display: block;
+	font-weight:900;
+}
+
+
+
+
+
+.conlett{
+		text-align: center;
 }
